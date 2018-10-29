@@ -11,6 +11,7 @@ header {
 }
 
 body {
+  margin: 0;
   font-family: Merriweather, serif;
   color: #fff;
 }
@@ -21,8 +22,10 @@ ul {
 }
 
 .nav a {
+  display: block;
   text-decoration: none;
   color: #fff;
+  padding: .4em 0;
 }
 
 img {
@@ -42,10 +45,10 @@ img {
 
 ul li {
   width: 33.333%;
-  padding: .4em 0;
+
 }
 
-.nav ul{
+.nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
