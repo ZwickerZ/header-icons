@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: Merriweather, serif;
-  color: #fff;
 }
 
 *, *::before, *::after {
@@ -10,6 +8,11 @@ html {
 
 header {
   background-color: #d05c2e;
+}
+
+body {
+  font-family: Merriweather, serif;
+  color: #fff;
 }
 
 ul {
